@@ -8,11 +8,11 @@ public class Main {
         Scanner Obj = new Scanner (System.in);  
         
         System.out.println("What is your name?");
-        String name= Obj.nextLine();
+        String variable_name = Obj.nextLine();
         System.out.println("How old are you?");
-        String age= Obj.nextLine();
+        String variable_age = Obj.nextLine();
         System.out.println("What's your address?");
-        String add= Obj.nextLine();
+        String variable_add = Obj.nextLine();
                
         System.out.println("Hi! " + name);
         System.out.println("You are " + age); 
